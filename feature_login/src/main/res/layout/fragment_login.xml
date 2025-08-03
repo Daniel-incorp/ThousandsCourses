@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="bottom"
+        android:paddingStart="4dp"
+        android:text="Email"
+        android:textColor="#FDFDFD"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#515657" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="bottom"
+        android:paddingStart="4dp"
+        android:text="Пароль"
+        android:textColor="#FDFDFD"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColorHint="#515657" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Войти" />
+
+    <TextView
+        android:id="@+id/textViewRegistration"
+        android:layout_width="379dp"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:gravity="bottom|center_horizontal"
+        android:text="Регистрация"
+        android:textColor="#12B956" />
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:clickable="true"
+        android:gravity="bottom|center_horizontal"
+        android:text="Забыл пароль"
+        android:textColor="#12B956" />
+
+</LinearLayout>
